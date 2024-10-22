@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
+// src/app/components/game-list/game-list.component.ts
+import { Component, OnInit } from '@angular/core';
+import { RawgApiService } from '../../services/rawg-api.service';
 
 @Component({
   selector: 'app-game-list',
-  standalone: true,
-  imports: [],
   templateUrl: './game-list.component.html',
-  styleUrl: './game-list.component.css'
+  styleUrls: ['./game-list.component.css'],
 })
-export class GameListComponent {
+export class GameListComponent implements OnInit {
 
 }
